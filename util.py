@@ -37,10 +37,6 @@ def create_random_domain(domain_shape, domain_type, num_wall, num_storage,
     available_loc = [[i,j] for i in range(domain_shape[0])\
          for j in range(domain_shape[1])]
 
-    # for i in range(domain_shape[0]):
-    #     for j in range(domain_shape[1]):
-    #         available_loc.append([i,j])
-
     # shuffle the list of available locations
     random.shuffle(available_loc)
 
@@ -70,5 +66,5 @@ def create_random_domain(domain_shape, domain_type, num_wall, num_storage,
     
     my_domain.build_domain([walls, agent, storages, golds])
     my_domain.generate_domain_name()  
-    
+
     return my_domain
