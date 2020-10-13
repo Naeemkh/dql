@@ -304,8 +304,8 @@ class Domain:
             self.compute_color_tensor()
             # return np.copy(self.color_space_holder)
             
-            fig = plt.figure(12905)
-            # im = plt.imshow(self.plot_domain(False), interpolation=None)     
+            fig = plt.figure()
+            im = plt.imshow(self.plot_domain(False), interpolation=None)     
             # print(im)   
             plt.tight_layout(pad=0)
             fig = plt.gcf()
@@ -487,7 +487,7 @@ def fig2img(fig):
 if __name__=="__main__":
     import random
     import matplotlib.animation as animation
-    mydomain = Domain((10,10), "1D", 123)
+    mydomain = Domain((10,10), "2D", 123)
     mywall = []
     mystorage = []
     mygold=[]
@@ -509,7 +509,9 @@ if __name__=="__main__":
     a = mydomain.get_state()
     print(a.shape)
 
-    mydomain.reset(new_start_loc=True)
+    # mydomain.reset(new_start_loc=True)
+
+    mydomain.get_state()
 
 
 
