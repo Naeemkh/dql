@@ -44,9 +44,13 @@ Use the following *Notebook* for quick start.
 
 Set `new_agent_loc: True` to start from different initial locations.
 
+<p float="left">
+  <img src="figures/animation_20201003101019.gif" width="200">
+  <img src="figures/animation_20201003101019.gif" width="200">
+  <img src="figures/animation_20201003101019.gif" width="200">
+</p>
 
-| <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> | <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> | <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> |
-| <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> | <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> | <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> |
+
 
 
 
