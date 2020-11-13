@@ -39,7 +39,7 @@ For more details about the domain, please refer to the following files:
   </figcaption>
 </figure>
 
-Use the following *Notebook* for quick start.
+Use the following *Notebook* for a quick start.
 - [Train An Agent](train_an_agent.ipynb)
 
 Set `new_agent_loc: True` to start from different initial locations.
@@ -50,7 +50,6 @@ Set `new_agent_loc: True` to start from different initial locations.
   <img src="figures/animation_10106_3.gif" width="200">
   <img src="figures/animation_10106_4.gif" width="200">
 </p>
-
 <p float="left">
   <img src="figures/animation_10106_5.gif" width="200">
   <img src="figures/animation_10106_6.gif" width="200">

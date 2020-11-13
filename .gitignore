@@ -1,0 +1,4 @@
+myfolder/*
+__pycache__/*
+.vscode/*
+*.pdf
