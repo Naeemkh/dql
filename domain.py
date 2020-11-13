@@ -324,7 +324,7 @@ class Domain:
             # image.show()
             #--------------------------------------------
             np_image = np.asarray(image).transpose(2,0,1)
-            plt.close(12905)
+            plt.close()
             return np_image
 
         return None
@@ -357,7 +357,7 @@ class Domain:
             # plt.text(0,0.75, "Param3 goes here")
             
             if into_folder:                
-                fig.savefig(os.path.join(self.domain_name+'.pdf'))
+                fig.savefig(os.path.join(self.domain_name+'.png'))
                 return            
             
             plt.show()

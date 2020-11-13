@@ -24,3 +24,6 @@ The agent learns the optimal policy by the DDQL algorithm. The following table s
 | Entering storage while the agent has gold                         |   +1.00 |
 | Entering storage while the agent does not have gold               |   -0.20 |
 
+For more details about the domain, please refere to the following files:
+- [Domain API](domain.py)
+- [Domain interaction](domain_prep.ipynb)
