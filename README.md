@@ -45,8 +45,8 @@ Use the following *Notebook* for quick start.
 Set `new_agent_loc: True` to start from different initial locations.
 
 
-|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|
-|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|
+| <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> | <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> | <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> |
+| <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> | <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> | <figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure> |
 
 
 
@@ -55,7 +55,3 @@ Set `new_agent_loc: True` to start from different initial locations.
 
 
 
-<figure class="image">
-<!-- ![DQlearning Demo](figures/animation_20201003101019.gif) -->
-<img src="figures/animation_20201003101019.gif" width="400">
-</figure>
