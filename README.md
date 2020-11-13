@@ -11,3 +11,16 @@ In this project, Deep Q-learning and Double Deep Q-learning algorithms are imple
   <figcaption>Example of the project environment. Cube’s color definition is represented on the right. The agent (red cube) is allowed to normal moves. The color of the agent turns green (not shown in the domain) upon collecting a gold. See the text for more details.</figcaption>
 </figure>
 
+The agent learns the optimal policy by the DDQL algorithm. The following table shows the immediate rewards for the agent actions. 
+
+
+|                             Action                                |  Reward | 
+| ----------------------------------------------------------------- | ------- |
+| Hitting the borders                                               |   -1.00 |
+| Hitting the blocks(walls)                                         |   -1.00 |
+| Wandering around                                                  |   -0.05 |
+| Entering a cube with gold while the agent has gold                |   -0.05 |
+| Entering a cube with gold while the agent does not have the gold  |   +1.00 |
+| Entering storage while the agent has gold                         |   +1.00 |
+| Entering storage while the agent does not have gold               |   -0.20 |
+
