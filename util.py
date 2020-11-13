@@ -68,3 +68,23 @@ def create_random_domain(domain_shape, domain_type, num_wall, num_storage,
     my_domain.generate_domain_name()  
 
     return my_domain
+
+
+
+class ResultsData:
+    def __init__(self, episods, epsilon_history, scores_history, max_value, t_time):
+        self.episods = episods
+        self.epsilon_history = epsilon_history
+        self.scores_history = scores_history
+        self.max_value = max_value
+        self.training_time = t_time
+
+
+def save_results_data(eposids, epsilon_history, scores_history, max_value,
+    t_time, output_folder, domain_name):
+    
+    results = ResultsData(eposids, epsilon_history, scores_history, max_value,
+     t_time)
+    # timestamp = datetime.datetime.now().strftime("%Y%m%d%I%M%S")
+    with open(f'{output_folder}/{domain_name}_results.pkl', 'wb') as b:
+            pickle.dump(results,b)

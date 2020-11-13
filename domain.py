@@ -357,7 +357,7 @@ class Domain:
             # plt.text(0,0.75, "Param3 goes here")
             
             if into_folder:                
-                fig.savefig(os.path.join(self.domain_name+'.png'))
+                fig.savefig(os.path.join(into_folder,self.domain_name+'.png'))
                 return            
             
             plt.show()
