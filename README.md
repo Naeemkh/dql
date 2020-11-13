@@ -24,6 +24,14 @@ The agent learns the optimal policy by the DDQL algorithm. The following table s
 | Entering storage while the agent has gold                         |   +1.00 |
 | Entering storage while the agent does not have gold               |   -0.20 |
 
-For more details about the domain, please refere to the following files:
+For more details about the domain, please refer to the following files:
 - [Domain API](domain.py)
-- [Domain interaction](domain_prep.ipynb)
+- [Domain Interaction](domain_prep.ipynb)
+
+*GameConroller* class manages the training process. The following figure shows the UML diagram of the implementation. 
+
+<figure class="image">
+  <img src="figures/implementation.png" alt="figures/implementation.png" width="600">
+  <figcaption>UML diagram of the project implementation. The hollow diamonds represent an aggregation ("has-a") relationship; for example, GameController has-a DDQNAgent.
+  </figcaption>
+</figure>
