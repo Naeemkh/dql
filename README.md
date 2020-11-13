@@ -1,4 +1,5 @@
 ## Deep Double Q-learning
+### Author: Naeem Khoshnevis
 
 <figure class="image">
 <!-- ![DQlearning Demo](figures/animation_20201003101019.gif) -->
@@ -36,4 +37,25 @@ For more details about the domain, please refer to the following files:
   <img src="figures/implementation.png" alt="figures/implementation.png" width="600">
   <figcaption>UML diagram of the project implementation. The hollow diamonds represent an aggregation ("has-a") relationship; for example, GameController has-a DDQNAgent.
   </figcaption>
+</figure>
+
+Use the following *Notebook* for quick start.
+- [Train An Agent](train_an_agent.ipynb)
+
+Set `new_agent_loc: True` to start from different initial locations.
+
+
+|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|
+|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|<figure class="image"><img src="figures/animation_20201003101019.gif" width="100"></figure>|
+
+
+
+
+
+
+
+
+<figure class="image">
+<!-- ![DQlearning Demo](figures/animation_20201003101019.gif) -->
+<img src="figures/animation_20201003101019.gif" width="400">
 </figure>
