@@ -1,7 +1,9 @@
 ## Deep Double Q-learning
 
-![DQlearning Demo](figures/animation_20201003101019.gif)
-
+<figure class="image">
+<!-- ![DQlearning Demo](figures/animation_20201003101019.gif) -->
+<img src="figures/animation_20201003101019.gif" width="400">
+</figure>
 
 In this project, Deep Q-learning and Double Deep Q-learning algorithms are implemented to collect gold nuggets and deliver them to predefined storage. The domain is a 2-dimensional maze. The following figure shows an example of the domain and its features.
 
